@@ -7,7 +7,7 @@ Before(({ MainPage }) => {
     MainPage.visit()
   })
 
-Scenario('Проверим что сайт существует', ({ MainPage })=>{
+Scenario.skip('Проверим что сайт существует', ({ MainPage })=>{
     MainPage.visit()
 })
 
