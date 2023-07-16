@@ -1,4 +1,4 @@
-Feature('Переход в аккаунт клиента')
+Feature('Логин в пользователя')
 
 Before(({ MainPage }) => { 
     MainPage.visit()

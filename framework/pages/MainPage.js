@@ -12,12 +12,12 @@ visit(){
 },
 
 goToCustomer(){
-    I.waitForElement(this.locators.customerLoginButton)
+    I.waitForElement(this.locators.customerLoginButton, 5)
     I.click(this.locators.customerLoginButton)
 },
 
 goToManager(){
-    I.waitForElement(this.locators.managerLoginButton)
+    I.waitForElement(this.locators.managerLoginButton, 5)
     I.click(this.locators.managerLoginButton)
 }
 
