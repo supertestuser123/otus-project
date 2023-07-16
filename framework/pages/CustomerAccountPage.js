@@ -14,7 +14,7 @@ module.exports = {
   },
 
   isLogged(){
-    I.waitForElement(this.locators.transactionButton)
+    I.waitForElement(this.locators.transactionButton, 5)
     I.seeElement(this.locators.transactionButton)
     I.seeElement(this.locators.depositButton)
     I.seeElement(this.locators.withdrawlButton)    

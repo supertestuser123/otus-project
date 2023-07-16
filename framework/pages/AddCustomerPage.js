@@ -11,7 +11,7 @@ module.exports = {
 },
 
 addCustomer(){
-    I.waitForElement(this.locators.firstNameField)
+    I.waitForElement(this.locators.firstNameField, 5)
     I.fillField(this.locators.firstNameField, config.customer.firstName)
     I.fillField(this.locators.lastNameField, config.customer.lastName)
     I.fillField(this.locators.postCodeField, config.customer.postcode)
