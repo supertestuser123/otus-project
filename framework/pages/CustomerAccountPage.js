@@ -9,6 +9,7 @@ module.exports = {
     depositButton: '//button[@ng-click="deposit()"]',
     withdrawlButton: '//button[@ng-click="withdrawl()"]',
     accountNumberSelect: '//select[@name="accountSelect"]',
+    customerSelect: '//select[@name="userSelect"]',
   },
 
   isLogged(){
@@ -16,6 +17,11 @@ module.exports = {
     I.seeElement(this.locators.transactionButton)
     I.seeElement(this.locators.depositButton)
     I.seeElement(this.locators.withdrawlButton)    
-  }  
+  },
+  logout(){
+    I.click(this.locators.logoutButton)
+    I.seeElement(this.locators.customerSelect)
+  }
+
 }
   

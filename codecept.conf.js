@@ -1,8 +1,8 @@
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   tests: [
-    './tests/mainpage_test.js',
-    './tests/customerloginpage_test.js'
+    './tests/customerloginpage_test.js',
+    './tests/customeraccountpage_test.js',
   ],
   output: './output',
   helpers: {

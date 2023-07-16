@@ -9,7 +9,7 @@ module.exports = {
 
   selectFirstUser(){
     I.waitForElement(this.locators.customerSelect)
-    I.selectOption(this.locators.customerSelect, 'Hermoine Granger');
+    I.selectOption(this.locators.customerSelect, '1');
     I.waitForElement(this.locators.loginButton)
     I.click(this.locators.loginButton)
   }

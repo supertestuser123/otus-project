@@ -1,7 +1,3 @@
-const MainPage = require("../framework/pages/MainPage")
-const CustomerLoginPage = require("../framework/pages/CustomerLoginPage")
-const CustomerAccountPage = require("../framework/pages/CustomerAccountPage")
-
 Feature('Переход в аккаунт клиента')
 
 Before(({ MainPage }) => { 
