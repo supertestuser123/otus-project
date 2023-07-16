@@ -40,6 +40,11 @@ module.exports = {
   goToDeposit(){
     I.waitForElement(this.locators.depositButton, 5)
     I.click(this.locators.depositButton)
+  },
+
+  goToWithdrawl(){
+    I.waitForElement(this.locators.withdrawlButton, 5)
+    I.click(this.locators.withdrawlButton)
   }
 }
   
