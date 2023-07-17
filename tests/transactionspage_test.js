@@ -5,7 +5,7 @@ Before(({ MainPage, CustomerLoginPage, CustomerAccountPage }) => {
     MainPage.visit()
     MainPage.goToCustomer()
     CustomerLoginPage.selectFirstUser()
-    CustomerAccountPage.go()
+    CustomerAccountPage.goToTransactions()
  })
 
 Scenario('Переход на страницу транзакций', ({ TransactionsPage })=>{

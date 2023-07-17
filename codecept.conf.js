@@ -1,13 +1,13 @@
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   tests: [
-    // './tests/customerloginpage_test.js',
-    // './tests/customeraccountpage_test.js',
-    // './tests/transactionspage_test.js',
-    // './tests/depositpage_test.js',
-    // './tests/withdrawlpage_test.js',
-    // './tests/addcustomerpage_test.js',
-    // './tests/openaccauntpage_test.js',
+    './tests/customerloginpage_test.js',
+    './tests/customeraccountpage_test.js',
+    './tests/transactionspage_test.js',
+    './tests/depositpage_test.js',
+    './tests/withdrawlpage_test.js',
+    './tests/addcustomerpage_test.js',
+    './tests/openaccauntpage_test.js',
     './tests/customerspage_test.js',
 
   ],
