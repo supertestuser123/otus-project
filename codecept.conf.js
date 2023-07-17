@@ -33,5 +33,12 @@ exports.config = {
     OpenAccountPage: "./framework/pages/OpenAccountPage.js",
     CustomersPage: "./framework/pages/CustomersPage.js",
     },
-  name: 'otus-project'
+  name: 'otus-project',
+  plugins: {
+    testomatio: {
+      enabled: true,
+      require: '@testomatio/reporter/lib/adapter/codecept',
+      apiKey: process.env.TESTOMATIO,
+    }
+  }
 }
