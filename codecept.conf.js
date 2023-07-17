@@ -6,7 +6,9 @@ exports.config = {
     // './tests/transactionspage_test.js',
     // './tests/depositpage_test.js',
     // './tests/withdrawlpage_test.js',
-    './tests/addcustomerpage_test.js',
+    // './tests/addcustomerpage_test.js',
+    // './tests/openaccauntpage_test.js',
+    './tests/customerspage_test.js',
 
   ],
   output: './output',
@@ -28,6 +30,8 @@ exports.config = {
     WithdrawlPage: "./framework/pages/WithdrawlPage.js",
     ManagerPage: "./framework/pages/ManagerPage.js",
     AddCustomerPage: "./framework/pages/AddCustomerPage.js",
-  },
+    OpenAccountPage: "./framework/pages/OpenAccountPage.js",
+    CustomersPage: "./framework/pages/CustomersPage.js",
+    },
   name: 'otus-project'
 }

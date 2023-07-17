@@ -8,7 +8,7 @@ Before(({ MainPage }) => {
     CustomerLoginPage.selectFirstUser()
  })
 
-Scenario.skip('Выход из аккаунта', ({ CustomerAccountPage })=>{
+Scenario('Выход из аккаунта', ({ CustomerAccountPage })=>{
     CustomerAccountPage.logout()
  })
 
