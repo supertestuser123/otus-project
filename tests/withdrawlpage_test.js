@@ -1,4 +1,3 @@
-const WithdrawlPage = require("../framework/pages/WithdrawlPage")
 Feature('Снятие со счета пользователя')
 
 Before(({ MainPage, CustomerLoginPage, CustomerAccountPage }) => { 
